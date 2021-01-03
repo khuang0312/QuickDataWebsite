@@ -1,0 +1,34 @@
+/*
+General styles used throughout the webste
+*/
+
+/* Text formatting */
+h1, h2, h3, p, label, li {
+	font-family: "Open Sans", sans-serif; 
+}
+
+/* Change anchor styling... */
+
+
+/* Navbar */
+.navbar {
+	overflow: hidden;
+	background-color: #800080;
+	top: 0;
+	width: 100%;
+}
+
+
+.navbar a {
+	float: left;
+	display: block;
+	padding: 15px 18px;
+	
+	color: #eeeeee;
+	
+	font-family: "Open Sans", sans-serif; 
+	text-decoration: none;
+	text-align: center;
+}
+
+/* Footer */

@@ -1,28 +1,2 @@
-/* This is the home page's CSS stylesheet */
+/* This is the general CSS stylesheet */
 
-/* 
-Definitely need to get rid of the alternating blue and red...
-*/
-
-#navigation_bar {
-    list-style: none;
-    width: 60%;
-    height: 90px;
-    margin: 0;
-    padding: 0;
-    white-space: nowrap;
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
-
-#navigation_bar > li {
-    display: inline-block;
-    width: 15%;
-    height: 100%;
-    background-color: red;
-    font-size: 40px;
-}
-
-#navigation_bar > li:nth-child(even) {
-    background-color: blue;
-}    

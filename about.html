@@ -12,12 +12,13 @@
         <meta name="viewport" content="width=device-width,initial-scale=1">
 
         <!-- add some CSS -->
-        <link href="../styles/home.css" rel="stylesheet">
-
+        <link href="styles/styles.css" rel="stylesheet">
+        <link href="styles/about.css" rel="stylesheet">
         <!-- add a favicon -->
         <!-- add OpenGraph Data and other different types of metadata -->
 
     </head>
+
 
     <body>
         
@@ -25,17 +26,21 @@
             <h1>QuickData Media Inc.</h1>
         </header>
 
-        <nav>
-            <ul id="navigation_bar">
-                <li>Home</li>
-                <li>Order</li>
-                <li>FAQ</li>
-                <li>Contact</li>
-                <li>Sizing</li>
-            </ul>
-        </nav>
 
-        <main>
+        <nav>
+			<!-- navigation bar -->
+			<div class="navbar">
+				<a href="index.html">Home</a>
+				<a href="about.html">About Us</a>
+				<a href="products.html">Products</a>
+				<a href="quotes.html">Quotes</a>
+				<a href="">Portfolio</a>
+			</div>
+
+        </nav>
+        
+		<main>
+
             <h2>Your Local Professional Printer - From Design to Print</h2>
             <p>Since 1992, QuickData Media Inc. has been serving the Bay Area, 
                 offering services to clients from a wider variety of industries.</p>
@@ -78,7 +83,32 @@
                 <li>Crystal Awards, Advertising, Mailing</li>
             </ul>
 
-                
+
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.515279033446!2d-121.8994492845131!3d37.40129394133174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fceab94b57cdd%3A0xdf299ed73ab6c2e0!2sQuickData%20Media%20Inc.%20Printing%20%26%20Signage!5e0!3m2!1sen!2sus!4v1609677282161!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+		<!-- email form -->
+		<div class="form">
+		<h2>Contact Us</h2>
+		
+		<label for="fname">First Name (required)</label>
+		<input type="text" id="fname" name="firstname" placeholder="Your first name...">
+
+		<label for="lname">Last Name (required)</label>
+		<input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+		<label for="email_addr">Email (required)</label>
+		<input type="email" id="email_addr" name="email" placeholder="Your email address...">
+		
+		<label for="esubject">Subject</label>
+		<input type="text" id="esubject" name="emailsubject" placeholder="Your email subject...">
+	
+		<label for="email_text">Message</label>
+		<textarea id="email_text" name="text" rows="5" cols="40" placeholder="Your email here...">
+		</textarea>
+	
+		<input type="submit" value="Send">
+		</div>
+
         </main>
 
         <footer>
@@ -103,5 +133,3 @@
         </footer>
         
     </body>
-
-</html>
